@@ -19,12 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\p2p_api.cpp" />
-    <ClCompile Include="src\libp2p_plugin.cpp" />
+    <ClCompile Include="..\src\p2p_api.cpp" />
+    <ClCompile Include="..\src\libp2p_plugin.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\p2p.h" />
-    <ClInclude Include="src\p2p_api.h" />
+    <ClInclude Include="..\src\p2p.h" />
+    <ClInclude Include="..\src\p2p_api.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -79,19 +79,19 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Program Files\VapourSynth\sdk\include\vapoursynth;$(IncludePath);.\</IncludePath>
+    <IncludePath>$(IncludePath);C:\Program Files\VapourSynth\sdk\include\vapoursynth;..\src</IncludePath>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>C:\Program Files\VapourSynth\sdk\include\vapoursynth;$(IncludePath);.\</IncludePath>
+    <IncludePath>$(IncludePath);C:\Program Files\VapourSynth\sdk\include\vapoursynth;..\src</IncludePath>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Program Files\VapourSynth\sdk\include\vapoursynth;$(IncludePath);.\</IncludePath>
+    <IncludePath>$(IncludePath);C:\Program Files\VapourSynth\sdk\include\vapoursynth;..\src</IncludePath>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\Program Files\VapourSynth\sdk\include\vapoursynth;$(IncludePath);.\</IncludePath>
+    <IncludePath>$(IncludePath);C:\Program Files\VapourSynth\sdk\include\vapoursynth;..\src</IncludePath>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">

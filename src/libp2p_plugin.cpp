@@ -2,7 +2,7 @@
 #include <memory>
 
 #include "p2p_api.h"
-#include <src\headers\VapourSynth4.h>
+#include <VapourSynth4.h>
 
 typedef struct {
     VSVideoInfo vi;

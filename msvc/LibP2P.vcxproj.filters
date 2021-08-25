@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\libp2p_plugin.cpp">
+    <ClCompile Include="..\src\libp2p_plugin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\p2p_api.cpp">
+    <ClCompile Include="..\src\p2p_api.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\p2p.h">
+    <ClInclude Include="..\src\p2p.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\p2p_api.h">
+    <ClInclude Include="..\src\p2p_api.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
