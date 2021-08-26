@@ -191,7 +191,7 @@ static void VS_CC unpackCreate(const VSMap* in, VSMap* out, void* userData, VSCo
 }
 
 VS_EXTERNAL_API(void) VapourSynthPluginInit2(VSPlugin* plugin, const VSPLUGINAPI* vspapi) {
-    vspapi->configPlugin("com.djatom.libp2p", "libp2p", "libp2p rgb formats packer/unpacker", VS_MAKE_VERSION(1, 0), VAPOURSYNTH_API_VERSION, 0, plugin);
+    vspapi->configPlugin("com.djatom.libp2p", "libp2p", "libp2p rgb formats packer/unpacker", VS_MAKE_VERSION(1, 1), VAPOURSYNTH_API_VERSION, 0, plugin);
     vspapi->registerFunction("Pack", "clip:vnode;", "clip:vnode;", packCreate, NULL, plugin);
     vspapi->registerFunction("Unpack", "clip:vnode;", "clip:vnode;", unpackCreate, NULL, plugin);
 }
