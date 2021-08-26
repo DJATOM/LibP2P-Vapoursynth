@@ -1,7 +1,7 @@
 #include <string>
 #include <memory>
 
-#include "p2p_api.h"
+#include "libp2p/p2p_api.h"
 #include <VapourSynth4.h>
 
 typedef struct {
