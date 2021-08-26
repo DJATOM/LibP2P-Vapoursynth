@@ -6,9 +6,9 @@
 
 typedef struct {
     VSVideoInfo vi;
-    uint32_t src_format;
     VSNode* node;
     p2p_packing p2p_output_format;
+    uint32_t src_format;
 } PackP2PData;
 
 typedef struct {
