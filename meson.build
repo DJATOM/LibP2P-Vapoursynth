@@ -6,8 +6,8 @@ project('LibP2P', ['cpp'],
 )
 
 sources = [
-    'src/libp2p_plugin.cpp',
     'src/p2p_api.cpp'
+    'src/vs_plugin.cpp'
 ]
 
 vapoursynth_dep = dependency('vapoursynth', version: '>=R55').partial_dependency(compile_args: true, includes: true)

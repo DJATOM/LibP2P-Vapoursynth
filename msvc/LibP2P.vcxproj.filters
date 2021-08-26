@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\libp2p_plugin.cpp">
+    <ClCompile Include="..\src\vs_plugin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\src\p2p_api.cpp">
