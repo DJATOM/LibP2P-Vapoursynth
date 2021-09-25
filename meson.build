@@ -45,7 +45,6 @@ shared_module('p2p', sources,
     include_directories: 'src',
     dependencies: deps,
     link_with: libs,
-    link_args: '-static',
     install: true,
     install_dir: join_paths(vapoursynth_dep.get_pkgconfig_variable('libdir'), 'vapoursynth'),
     gnu_symbol_visibility: 'hidden'
