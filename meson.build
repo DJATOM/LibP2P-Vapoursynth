@@ -13,7 +13,7 @@ sources = [
 
 with_simd = false
 libp2p_cppflags = ['-std=c++14']
-if host_machine.cpu_family().startswith('x86')
+if host_machine.cpu_family() == 'x86_64'
     libp2p_cppflags += '-DP2P_SIMD'
     with_simd = true
 endif
